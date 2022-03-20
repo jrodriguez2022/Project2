@@ -17,7 +17,7 @@ switch (req.url) {
 	   break;
 	case "/help":
 	   url=req.url;
-	   res.write("The URL you used was: "+url+"<br/><br/><br/> <h1>How can I help?</h1>");
+	   res.write("The URL you used was: "+url+"<br/><br/><br/> <h1>How can I help??</h1>");
 	   break;
 }
 
