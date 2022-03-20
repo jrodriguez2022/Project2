@@ -14,6 +14,11 @@ switch (req.url) {
 	   url=req.url;
 	   res.write("The URL you used was: "+url+"<br/><br/><br/> <h1>HELLO!!</h1>");
 	   break;
+	case "/help":
+	   url=req.url;
+	   res.write("The URL you used was: "+url+"<br/><br/><br/> <h1>iHow can I Help?</h1>");
+	   break;
+}
 }
 
 res.end('</body></html>');
