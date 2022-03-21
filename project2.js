@@ -1,7 +1,6 @@
-#####
 const http = require("http");
 
-const host = '137.184.239.127';
+const host = '0.0.0.0';
 const port = 8000;
 
 const requestListener = function (req, res) {
@@ -17,8 +16,9 @@ switch (req.url) {
 	   break;
 	case "/help":
 	   url=req.url;
-	   res.write("The URL you used was: "+url+"<br/><br/><br/> <h1>How can I help??</h1>");
+	   res.write("The URL you used was: "+url+"<br/><br/><br/> <h1>iHow can I Help?</h1>");
 	   break;
+}
 }
 
 res.end('</body></html>');
